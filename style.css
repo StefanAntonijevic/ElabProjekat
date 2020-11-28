@@ -1,0 +1,83 @@
+body{
+    background-color:gray;
+    font-family:"Palatino Linotype", Helvetica, sans-serif;
+}
+
+img{
+    border: 2px solid #B22222;
+}
+header{
+    background-color: #B22222;
+    text-align: center;
+    color: black;
+}
+
+h4{
+    color: #B22222;
+    background-color: whitesmoke;
+}
+
+header h1{
+    font-family:Georgia, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing:3px;
+    padding:10px,0px,15px,0px;
+}
+
+#meni{
+    float: left;
+    width: 28%;
+    
+    
+}
+h1,h2,h3{
+    margin: 0px;
+}
+
+
+#wrap{
+    background-image: linear-gradient(#B22222, gray);
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto ;
+}
+#sadrzaj{
+    padding: 10px;
+}
+#glavna{
+    width: 70%;
+    float: right;
+}
+footer{
+    clear: both;
+    padding: 10px;
+    background-color: gray;
+    color: honeydew;
+    text-align: right;
+}
+#meni,#glavna {
+    padding: 5px;
+    background-color: #D0D0D0;
+}
+ul{
+    padding: 10px;
+    list-style-type: none;
+}
+#meni ul li a{
+    color:black;
+    text-decoration: none;
+}
+#meni ul li a:hover{
+    color:red;
+}
+#meni ul li a:visited{
+    color:purple;
+}
+#glavna a {
+    color:purple;
+    text-decoration: none;
+}
+.selektovana{
+    font-weight: bold;
+}
